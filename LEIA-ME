@@ -1,0 +1,82 @@
+🚀 Fluxo de Trabalho Colaborativo no Git
+
+Clonar o Repositório (para quem ainda não tem o projeto localmente)
+
+TERMINAL:
+=========================================================
+|  git clone https://github.com/Sainaad/perdieachei.git
+|  cd perdieachei
+=========================================================
+
+Criar uma Nova Branch para a Tarefa
+
+TERMINAL:
+=========================================================
+|  git checkout -b nome-da-fuincionalidade
+=========================================================
+
+        Nome-da-fuincionalidade?
+
+        Exemplo: tela-do-mapa-localizacao
+        TERMINAL:
+        =========================================================
+        |  git checkout -b tela-do-mapa-localizacao
+        =========================================================
+
+        A BRANCH DA FUNCIONALIDADE SERÁ CRIADO PELO DEV SEGUNDO O PLANEJAMENTO DA SPRINT.
+        SOMENTE DEVERA SER ESCRITO O CODIGO DESSA PARTE DO SISTEMA.
+
+Para sair da Branch:
+
+TERMINAL:
+=========================================================
+|  git checkout -b tela-do-mapa-localizacao (exemplo)
+=========================================================
+
+Fazer Alterações e Commits
+
+CUIDADO AO FAZER COMMITS, TER CERTEZA QUE ESTA DENTRO DO SUA BRANCH CRIADA PRA A FUNCIONALIDADE EM DESENVOLVIMENTO.
+
+Para saber em qual branch você está atualmente, basta rodar o seguinte comando:
+
+      TERMINAL:
+      =========================================================
+      |  git branch
+      =========================================================
+
+      O comando vai listar todas as branches locais, e a branch em que você está no momento estará com um * ao lado do nome.
+
+Após modificar o código:
+
+TERMINAL:
+=========================================================
+|  git add .
+|  git commit -m "Descrição das alterações"
+=========================================================
+
+Enviar a Branch para o Repositório Remoto
+
+TERMINAL:
+=========================================================
+git push origin tela-do-mapa-localizacao (exemplo)
+=========================================================
+
+*** Criar um Pull Request (PR) (SOMENTE QUANDO A FUNCIONALIDADE JA ESTIVER PRONTA) ***
+
+No GitHub, vá até a interface do repositório.
+Abra um Pull Request (PR) da sua branch para a main.
+Aguarde revisão e aprovação da equipe.
+Mesclar (Merge) a Branch na Main
+
+Após aprovação, a branch pode ser mesclada na main.
+Atualizar o Código Localmente
+
+Antes de iniciar uma nova tarefa, sincronize com o repositório remoto:
+
+TERMINAL:
+=========================================================
+git checkout main
+git pull origin main
+=========================================================
+
+🚀
